@@ -13,4 +13,7 @@ document.addEventListener("DOMContentLoaded", _ => {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
   })
+
+  document.querySelector("small")
+  .innerHTML = `&copy; ${new Date().getFullYear()} Compiplus`
 })

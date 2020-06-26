@@ -3,6 +3,7 @@
 @font-face {
 	src: url(bpg-arial.ttf);
 	font-family: bpg-arial;
+	font-display: swap;
 }
 
 * {
