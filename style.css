@@ -1,7 +1,7 @@
 /* GENERAL STYLES */
 
 @font-face {
-	src: url(bpg-arial.ttf);
+	src: url(assets/fonts/bpg-arial.ttf);
 	font-family: bpg-arial;
 	font-display: swap;
 }
@@ -84,7 +84,7 @@ p {
 /* BANNER */
 
 .banner {
-	background: url(keyboard.jpg) center rgba(0, 0, 0, .5);
+	background: url(assets/img/keyboard.jpg) center rgba(0, 0, 0, .5);
 	background-blend-mode: overlay;
 	background-size: cover;
 	color: white;
