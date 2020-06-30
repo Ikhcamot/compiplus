@@ -61,6 +61,8 @@ a {
 
 button > a{
 	text-decoration: none;
+	padding: .5em 1em;
+	display: block;
 }
 
 h1,
@@ -99,9 +101,9 @@ p {
 button {
 	font-size: inherit;
 	border: none;
-	padding: .5em 1em;
 	background-color: white;
 	border-radius: 2px;
+	padding: 0;
 }
 
 /* SECTION */
