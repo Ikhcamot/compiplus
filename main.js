@@ -16,4 +16,6 @@ document.addEventListener("DOMContentLoaded", _ => {
 
   document.querySelector("small")
   .innerHTML = `&copy; ${new Date().getFullYear()} Compiplus`
+  
+  document.querySelector("strong").innerHTML = new Date().getFullYear() - 2007
 })
